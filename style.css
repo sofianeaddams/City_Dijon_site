@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  color: black;
+}
+
+#hero_image {
+  background-image: url(images/hero.jpg);
+  padding: 180px 0 240px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 28px;
+  background-color: #fedd03;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#hero_image p {
+  color: white;
+  background-color: black;
+  display: inline-block;
+  padding: 32px 64px;
+  border-radius: 12px;
+  font-size: 20px;
+  max-width: 600px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+#divider {
+  background-color: #fedd03;
+  padding: 32px 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#main_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#main_container div {
+  max-width: 400px;
+  padding: 0 60px;
+}
+
+#main_container img {
+  border: 4px solid #fedd03;
+  border-radius: 100%;
+}
+
+#activity_header {
+  padding-top: 100px;
+}
+
+#activity_section {
+  padding-bottom: 140px;
+}
+
+#about_section {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#about_content {
+  max-width: 600px;
+  display: inline-block;
+}
+
+#space {
+  padding: 80px;
+  background-color: #fedd03;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: black;
+  color: #fedd03;
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+  padding: 32px 0px;
+}
+
+@media (max-width: 800px) {
+  #main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container_child {
+    margin-bottom: 40px;
+  }
+
+  #activity_header {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #activity_section {
+    padding-bottom: 60px;
+  }
+}
